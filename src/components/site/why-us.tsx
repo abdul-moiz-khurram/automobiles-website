@@ -34,7 +34,7 @@ export function WhyUs() {
 
   return (
     <section id="why" className="py-24 lg:py-32">
-      <div className="mx-auto w-full max-w-310 px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-[1240px] px-5 sm:px-8">
         <div className="grid gap-14 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1fr)] lg:gap-20">
           <div className="lg:sticky lg:top-28 lg:self-start">
             <Reveal>
@@ -57,7 +57,7 @@ export function WhyUs() {
                   loading="lazy"
                   className="w-full scale-110 object-cover will-change-transform"
                 />
-                <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-background to-transparent p-6 pt-16">
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background to-transparent p-6 pt-16">
                   <p className="font-display text-sm font-bold uppercase tracking-[0.18em]">
                     ~$14,000 of equipment
                   </p>

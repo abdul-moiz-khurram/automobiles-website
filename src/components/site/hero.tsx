@@ -40,7 +40,7 @@ export function Hero() {
         style={{ clipPath: "polygon(30% 0, 100% 0, 100% 100%, 0 100%)" }}
       />
 
-      <div className="relative mx-auto w-full max-w-310 px-5 sm:px-8">
+      <div className="relative mx-auto w-full max-w-[1240px] px-5 sm:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-10">
           <div>
             <p className="eyebrow">Mobile detailing · Demo website.</p>

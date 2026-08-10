@@ -41,7 +41,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
   return (
     <div
       ref={boxRef}
-      className="group relative aspect-3/2 w-full cursor-ew-resize overflow-hidden border-2 border-border select-none"
+      className="group relative aspect-[3/2] w-full cursor-ew-resize overflow-hidden border-2 border-border select-none"
       onPointerDown={(e) => {
         dragging.current = true;
         e.currentTarget.setPointerCapture(e.pointerId);
@@ -108,7 +108,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
 export function BeforeAfter() {
   return (
     <section id="results" className="border-y-2 border-border bg-surface py-24 lg:py-32">
-      <div className="mx-auto w-full max-w-310 px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-[1240px] px-5 sm:px-8">
         <Reveal>
           <div className="max-w-2xl">
             <p className="eyebrow">Transformation gallery</p>

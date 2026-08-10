@@ -19,7 +19,7 @@ export function ServiceArea() {
 
   return (
     <section id="areas" className="border-t border-border py-24 lg:py-32">
-      <div className="mx-auto w-full max-w-310 px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-[1240px] px-5 sm:px-8">
         <div className="grid gap-14 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1fr)] lg:gap-16">
           <Reveal>
             <p className="eyebrow">Service area</p>

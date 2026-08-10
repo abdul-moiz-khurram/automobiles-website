@@ -3,12 +3,12 @@ import { Reveal } from "./reveal";
 export function FinalCta() {
   return (
     <section className="relative overflow-hidden bg-accent py-28 lg:py-36">
-      <div className="relative mx-auto w-full max-w-310 px-5 text-center sm:px-8">
+      <div className="relative mx-auto w-full max-w-[1240px] px-5 text-center sm:px-8">
         <Reveal>
           <p className="font-display text-[0.7rem] font-bold uppercase tracking-[0.28em] text-accent-foreground/75">
             The last word
           </p>
-          <h2 className="mx-auto mt-5 max-w-3xl text-4xl uppercase leading-none text-accent-foreground sm:text-6xl">
+          <h2 className="mx-auto mt-5 max-w-3xl text-4xl uppercase leading-[1] text-accent-foreground sm:text-6xl">
             Your Car Deserves More Than A Quick Wash
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg text-accent-foreground/85">
@@ -37,7 +37,7 @@ export function FinalCta() {
 export function SiteFooter() {
   return (
     <footer className="border-t border-border py-12">
-      <div className="mx-auto flex w-full max-w-310 flex-col gap-6 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto flex w-full max-w-[1240px] flex-col gap-6 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-display text-lg font-extrabold uppercase tracking-[-0.03em]">
             Elite Mobile Detailing

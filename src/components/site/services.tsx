@@ -88,7 +88,7 @@ const TIER_COLOR: Record<"red" | "blue" | "green", string> = {
 export function Services() {
   return (
     <section id="services" className="relative py-24 lg:py-32">
-      <div className="mx-auto w-full max-w-310 px-5 sm:px-8">
+      <div className="mx-auto w-full max-w-[1240px] px-5 sm:px-8">
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6 border-b border-border pb-8">
             <div>

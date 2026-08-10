@@ -29,7 +29,7 @@ export function SiteNav() {
     >
       <nav
         aria-label="Primary"
-        className="mx-auto flex w-full max-w-310 items-center justify-between px-5 sm:px-8"
+        className="mx-auto flex w-full max-w-[1240px] items-center justify-between px-5 sm:px-8"
       >
         <a href="#top" className="flex items-baseline gap-2">
           <span className="font-display text-xl font-extrabold tracking-[-0.04em] uppercase">
@@ -71,13 +71,13 @@ export function SiteNav() {
             aria-label="Toggle menu"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.25 border border-border lg:hidden"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-[5px] border border-border lg:hidden"
           >
             <span
-              className={`h-px w-4 bg-foreground transition-transform ${open ? "translate-y-0.75 rotate-45" : ""}`}
+              className={`h-px w-4 bg-foreground transition-transform ${open ? "translate-y-[3px] rotate-45" : ""}`}
             />
             <span
-              className={`h-px w-4 bg-foreground transition-transform ${open ? "-translate-y-0.75 -rotate-45" : ""}`}
+              className={`h-px w-4 bg-foreground transition-transform ${open ? "-translate-y-[3px] -rotate-45" : ""}`}
             />
           </button>
         </div>
@@ -85,7 +85,7 @@ export function SiteNav() {
 
       {open && (
         <div className="mt-3 border-t border-border bg-background lg:hidden">
-          <ul className="mx-auto flex w-full max-w-310 flex-col px-5 py-2 sm:px-8">
+          <ul className="mx-auto flex w-full max-w-[1240px] flex-col px-5 py-2 sm:px-8">
             {LINKS.map((l) => (
               <li key={l.href} className="border-b border-border last:border-0">
                 <a
