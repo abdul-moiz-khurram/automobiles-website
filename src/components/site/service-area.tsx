@@ -52,7 +52,7 @@ export function ServiceArea() {
           <Reveal delay={120}>
             <div className="plate relative aspect-square w-full overflow-hidden p-6">
               <svg
-                viewBox="(000) 000-0000"
+                viewBox="0 0 100 100"
                 role="img"
                 aria-label="Map of Austin-area cities served"
                 className="h-full w-full"
