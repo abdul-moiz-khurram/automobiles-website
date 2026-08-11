@@ -116,7 +116,7 @@ export function BeforeAfter() {
               Drag the line. That&apos;s the same car.
             </h2>
             <p className="mt-5 text-lg text-muted-foreground">
-              No filters, no staged lighting tricks just documented results from
+              No filters, no staged lighting tricks, just documented results from
               real bookings across Central Texas.
             </p>
           </div>

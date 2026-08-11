@@ -47,7 +47,7 @@ export function SiteFooter() {
           </p>
         </div>
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Apex Mobile Detailing. Fully insured ·
+          © {new Date().getFullYear()} Elite Mobile Detailing. Fully insured ·
           IDA-trained technicians.
         </p>
       </div>

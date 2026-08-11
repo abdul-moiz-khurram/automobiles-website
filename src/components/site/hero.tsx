@@ -49,7 +49,7 @@ export function Hero() {
               <span className="block text-accent">On Your Driveway.</span>
             </h1>
             <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground">
-              Studio grade paint correction, ceramic protection, and full
+              Studio-grade paint correction, ceramic protection, and full
               interior revival delivered to your door. No shop drop-off. No
               compromise.
             </p>

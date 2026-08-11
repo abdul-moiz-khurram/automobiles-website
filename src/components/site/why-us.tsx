@@ -5,7 +5,7 @@ const POINTS = [
   {
     n: "01",
     t: "We come to you",
-    d: "Home, office garage, jobsite. Our van carries 65 gallons of filtered water, a 3kW generator and full lighting nothing needed from you.",
+    d: "Home, office garage, jobsite. Our van carries 65 gallons of filtered water, a 3kW generator and full lighting. Nothing needed from you.",
   },
   {
     n: "02",

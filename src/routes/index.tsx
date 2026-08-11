@@ -9,14 +9,14 @@ import { Reviews } from "@/components/site/reviews";
 import { ServiceArea } from "@/components/site/service-area";
 import { FinalCta, SiteFooter } from "@/components/site/final-cta";
 
-const TITLE = "Mobile Auto Detailing in Austin, TX | Apex Mobile Detailing";
+const TITLE = "Mobile Auto Detailing in Austin, TX | Elite Mobile Detailing";
 const DESC =
   "Premium mobile car detailing, paint correction and ceramic coating delivered to your driveway in Austin. Fully insured, 4.9★ from 412 reviews. Book today.";
 
 const JSON_LD = {
   "@context": "https://schema.org",
   "@type": "AutoDetailing",
-  name: "Apex Mobile Detailing",
+  name: "Elite Mobile Detailing",
   description: DESC,
   telephone: "+1 (555) 123-4567",
   priceRange: "$$-$$$",

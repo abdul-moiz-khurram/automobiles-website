@@ -27,8 +27,7 @@ export function ServiceArea() {
               40-mile radius from downtown Austin
             </h2>
             <p className="mt-5 text-lg text-muted-foreground">
-              Inside the radius, mobile service is included. Beyond it we still
-              come a small travel fee applies and we&apos;ll quote it upfront.
+              Beyond it, we still come. A small travel fee applies and we'll quote it upfront.
             </p>
             <ul className="mt-10 grid grid-cols-2 gap-x-6 gap-y-3">
               {CITIES.map((c) => (
