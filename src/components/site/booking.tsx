@@ -136,7 +136,7 @@ export function Booking() {
                 type="submit"
                 className="btn-sheen mt-10 w-full bg-accent px-8 py-4 font-display text-sm font-bold uppercase tracking-[0.18em] text-accent-foreground transition-transform duration-300 hover:-translate-y-0.5"
               >
-                {sent ? "Request received ✓" : "Request my quote"}
+                {sent ? "Request received. This is a demo website so no real request have been received ✓" : "Request my quote"}
               </button>
               <p aria-live="polite" className="mt-4 text-center text-xs text-muted-foreground">
                 {sent
