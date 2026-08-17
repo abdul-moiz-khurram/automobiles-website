@@ -41,7 +41,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
   return (
     <div
       ref={boxRef}
-      className="group relative aspect-[3/2] w-full cursor-ew-resize overflow-hidden border-2 border-border select-none"
+      className="group relative aspect-[3/2] w-full touch-none cursor-ew-resize overflow-hidden border-2 border-border select-none"
       onPointerDown={(e) => {
         dragging.current = true;
         e.currentTarget.setPointerCapture(e.pointerId);
@@ -58,7 +58,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
         height={800}
         loading="lazy"
         draggable={false}
-        className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]"
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]"
       />
       <div
         className="absolute inset-0 overflow-hidden"
@@ -70,7 +70,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
           width={1200}
           height={800}
           loading="lazy"
-          className="h-full w-full object-cover saturate-[0.72] transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]"
+          className="pointer-events-none h-full w-full object-cover saturate-[0.72] transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]"
         />
       </div>
 
