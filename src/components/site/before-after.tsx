@@ -57,6 +57,7 @@ function Slider({ set }: { set: (typeof SETS)[number] }) {
         width={1200}
         height={800}
         loading="lazy"
+        draggable={false}
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]"
       />
       <div
@@ -116,8 +117,7 @@ export function BeforeAfter() {
               Drag the line. That&apos;s the same car.
             </h2>
             <p className="mt-5 text-lg text-muted-foreground">
-              No filters, no staged lighting tricks, just documented results from
-              real bookings across Central Texas.
+              No filters, no staged lighting tricks, just documented results
             </p>
           </div>
         </Reveal>
